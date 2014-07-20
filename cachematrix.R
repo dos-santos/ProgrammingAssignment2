@@ -1,9 +1,9 @@
 # Example usage:
 # > x <- matrix(rnorm(16), nrow = 4)          // Create a matrix x
-# > cx <- makeCacheMatrix(x)                  // Create our special matrix
-# > cx$get()                                  // Return the matrix
-# > cacheSolve(cx)                            // Return the inverse
-# > cacheSolve(cx)                            // Call the 2nd time, so return
+# > z <- makeCacheMatrix(x)                   // Create our special matrix
+# > z$get()                                   // Return the matrix
+# > cacheSolve(z)                             // Return the inverse
+# > cacheSolve(z)                             // Call the 2nd time, so return
 #                                             // the cached inverse
 
 # makeCacheMatrix creates a list containing a function to
